@@ -1,0 +1,12 @@
+# Streamlit & UI
+streamlit==1.53.1
+htbuilder==0.9.0
+
+# OpenAI client library
+openai==2.16.0
+
+# PDF Reader
+pypdf==6.6.2
+
+# Environment variable
+dotenv==0.9.9
