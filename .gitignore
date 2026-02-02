@@ -165,3 +165,6 @@ pyrightconfig.json
 
 # Personal files
 me/
+
+# MacOS files
+.DS_Store
