@@ -33,6 +33,8 @@ Instead of reading a static CV, visitors can ask questions about an individual's
 ## UI
 ![UI](docs/screenshots/UI.png)
 
+---
+
 ## Environment Variables
 Create a .env file in the project root with the following: 
 ```env
@@ -42,6 +44,27 @@ MODEL_URL={https://api.example.com/v1}
 NAME={Your Name}
 LINKEDIN_URL={https://linkedin.com/in/yourprofile}
 ```
+
+---
+
+## Prerequisites
+
+Create a folder named "me" in the project root containing the following files:
+
+- "LinkedIn_Profile.pdf" - your LinkedIn profile export
+- "summary.txt" - a short, curated professional summary
+
+Expected structure:
+
+```text
+me/
+├── LinkedIn_Profile.pdf
+└── summary.txt
+```
+
+ These files are used as the assistant’s **only source of truth** when answering questions.
+
+---
 
 ## Running
 1. Install Dependencies
