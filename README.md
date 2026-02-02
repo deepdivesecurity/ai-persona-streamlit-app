@@ -4,6 +4,32 @@ Instead of reading a static CV, visitors can ask questions about an individual's
 
 ---
 
+## Project Status
+
+This repository is intentionally maintained as a **proof of value (PoV)**.
+
+It demonstrates:
+- Prompt safety and constraint design
+- Resume-grounded AI responses
+- Rapid prototyping with Streamlit
+
+No major new features are planned for this version.
+
+### Next Iteration
+
+A more production-oriented version of this project is being developed using:
+
+- **FastAPI** (backend)
+- **React** (frontend)
+
+The updated version focuses on:
+- Clear API boundaries
+- Production-ready deployment patterns
+
+Link: *Coming soon*
+
+---
+
 ## Features
 
 - Chat-based Q&A interface
