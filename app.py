@@ -135,7 +135,6 @@ if not user_first_interaction and not has_message_history:
             label_visibility="collapsed",
             options=SUGGESTIONS.keys(),
             key="selected_suggestion",
-            # disabled=chat_disabled,
         )
 
     st.button(
