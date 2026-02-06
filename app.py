@@ -40,26 +40,6 @@ SUGGESTIONS = {
 
 # Set page title and icon
 st.set_page_config(page_title="Page Title Placeholder", page_icon="")
-    
-# def get_secret(secret_id: str, project_id: str = None) -> str:
-#     """
-#     Fetches a secret from Google Secret Manager
-
-#     Args:
-#         secret_id: Name of the secret in Secret Manager.
-#         project_id: GCP project ID.
-
-#     Returns:
-#         Secret value as a string.
-#     """
-#     project_id = project_id or os.environ.get("GOOGLE_CLOUD_PROJECT")
-#     if not project_id:
-#         raise ValueError("Project ID not provided and GOOGLE_CLOUD_PROJECT not set")
-
-#     client = secretmanager.SecretManagerServiceClient()
-#     name = f"projects/{project_id}/secrets/{secret_id}/versions/latest"
-#     response = client.access_secret_version(request={"name": name})
-#     return response.payload.data.decode("UTF-8")
 
 ai_api_key = os.getenv("AI_API_KEY")
 
