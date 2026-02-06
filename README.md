@@ -1,3 +1,6 @@
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=deepdivesecurity_ai-persona-streamlit-app&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=deepdivesecurity_ai-persona-streamlit-app)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=deepdivesecurity_ai-persona-streamlit-app&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=deepdivesecurity_ai-persona-streamlit-app)
+
 # AI Resume Persona - Interactive Streamlit App
 An interactive, AI-powered resume built with Streamlit.  
 Instead of reading a static CV, visitors can ask questions about an individual's background, skills, and experience then receive answers grounded strictly in the provided resume and LinkedIn profile.
